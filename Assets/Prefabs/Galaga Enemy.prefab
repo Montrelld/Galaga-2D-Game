@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7094889438968559908}
   - component: {fileID: 7094889438968559834}
   - component: {fileID: 7094889438968559835}
+  - component: {fileID: 2311613046373878181}
   m_Layer: 0
   m_Name: Galaga Enemy
   m_TagString: Untagged
@@ -28,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7094889438968559911}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.9464, y: 2.7209, z: 0}
-  m_LocalScale: {x: 0.055645015, y: 0.0974563, z: 1}
+  m_LocalPosition: {x: -2.046, y: 2.785, z: 0}
+  m_LocalScale: {x: 0.07009865, y: 0.13550614, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -147,3 +148,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.49, y: 7.21}
   m_EdgeRadius: 0
+--- !u!114 &2311613046373878181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7094889438968559911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b32bafb653332478db38037a993ece02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  galagaEnemy: {fileID: 0}
